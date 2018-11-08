@@ -30,11 +30,11 @@ public class EarthquakeCityMapPractice extends PApplet {
 	private UnfoldingMap map;
 	private String earthquakesURL = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_week.atom";
 	
-	int yellow = color(255, 255, 0);
-	int red = color(255, 0, 0);
-	int blue = color(0, 0, 255);
-	int black = color(0, 0, 0);
-	int white = color(255, 255, 255);
+	private int yellow = color(255, 255, 0);
+	private int red = color(255, 0, 0);
+	private int blue = color(0, 0, 255);
+	private int black = color(0, 0, 0);
+	private int white = color(255, 255, 255);
 	
 	public void setup() {
 		size(1400, 900, OPENGL);
